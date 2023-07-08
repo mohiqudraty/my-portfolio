@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Crimson Text", serif;
+}
+/* logo and menu style start */
+.menu-containar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff8f3;
+  padding: 20px 30px 0 30px;
+
+  /* align-items: center; */
+}
+.logo {
+  color: #181818;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 130px;
+}
+#r {
+  color: #fd6e0a;
+}
+.menu-item > ul,
+li {
+  display: flex;
+  padding-right: 30px;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #474747;
+}
+.btn {
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* width: 150px;
+  height: 64px; */
+}
+/* banner style start */
+.banner-containar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff8f3;
+  background-image: url("./images/header_bg.png");
+  /* background-image: url("./images/developer.png"); */
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding: 30px 30px 0px 150px;
+}
+.introduction {
+}
+.hi-i-am {
+  color: #474747;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  max-width: 500px;
+}
+#name {
+  color: #181818;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.9;
+}
+.welcome {
+  margin: 15px 0;
+}
+.banner-btn1 {
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #fd6e0a;
+  font-size: 20px;
+  font-style: normal;
+  margin: 5px 15px 0 0;
+}
+.banner-btn2 {
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  padding: 15px 20px;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.baaner-image > img {
+  width: 800px;
+}
+/* start about style  */
+.about-container {
+  margin: 130px;
+  padding: 150px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+.about-me {
+  text-align: center;
+}
+.about-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info p {
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.what-i-do {
+  text-align: center;
+  padding: 20px 245px;
+}
+.skills-containar {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 230px;
+  gap: 15px;
+}
+.skills-box {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume-main {
+  background-color: #fff;
+}
+.summary {
+  text-align: center;
+  margin: 40px;
+}
+.resume-left-right {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 20px 245px;
+}
+.resume-colum h4 {
+  padding: 15px 0;
+}
+.resume-colum h4 {
+  padding: 10px 0 0 0;
+}
+.p {
+  padding: 15px 0;
+}
+.last-btn {
+  text-align: center;
+  margin: 20px 0 50px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 100px;
+  gap: 25px;
+  background: #fff8f3;
+}
+.social-media {
+  padding: 0 440px 0 0;
+}
+.social-media p {
+  margin: 10px 0;
+}
+.social-media a {
+  margin-right: 10px;
+}
+.contact-form {
+  padding-right: 100px;
+}
+.form input,
+textarea {
+  display: block;
+  margin: 13px 0;
+  padding: 15px 30px;
+  border: 0;
+  width: 100%;
+}
