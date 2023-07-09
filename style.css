@@ -107,6 +107,7 @@ li {
 }
 .baaner-image > img {
   width: 800px;
+  margin-bottom: -6px;
 }
 /* start about style  */
 .about-container {
